@@ -715,7 +715,7 @@ as arguments of the same names.
 
 	1. Let |property set|
 		be the value of the
-		<a>current global object's</a>
+		<a>current principal global object's</a>
 		<a>associated <code>Document</code></a>'s
 		{{[[registeredPropertySet]]}} slot.
 
