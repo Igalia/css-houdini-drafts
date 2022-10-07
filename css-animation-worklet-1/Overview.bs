@@ -740,7 +740,7 @@ Creates a new {{WorkletAnimation}} object using the following procedure:
     5. Run the procedure to [=set the timeline of an animation=] on |workletAnimation| passing
         |timeline| as the new timeline or, if a |timeline| argument is not provided,
         passing the [=default document timeline=] of the {{Document}} associated with the
-        {{Window}} that is the [=current global object=].
+        {{Window}} that is the [=current principal global object=].
 
     6. Let |effect| be the result corresponding to the first matching condition from below.
          : If |effects| is a {{AnimationEffect}} object,
